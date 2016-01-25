@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tic-Tac-Toe</title>
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body>
+    <div class="row">
+    <h1>Tic Tac Toe</h1>
+    </div>
+    <div class="row">
+      <form id="form" name="selectGrid">
+        <select class="gridSize" name="gridSize">
+          <option value=3>3x3</option>
+          <option value=4>4x4</option>
+          <option value=5>5x5</option>
+          <option value=6>6x6</option>
+          <option value=7>7x7</option>
+          <option value=8>8x8</option>
+        </select>
+        <input type="button" name="" size='10' value="New Grid">
+      </form>
+    </div>
+    <div class="theContainer">
+      <!-- <div class="row">
+        <span class="square noBorderTop noBorderLeft"></span>
+        <span class="square noBorderTop"></span>
+        <span class="square noBorderTop noBorderRight"></span>
+      </div>
+      <div class="row">
+        <span class="square noBorderLeft"></span>
+        <span class="square"></span>
+        <span class="square noBorderRight"></span>
+      </div>
+      <div class="row">
+        <span class="square noBorderBottom noBorderLeft"></span>
+        <span class="square noBorderBottom"></span>
+        <span class="square noBorderBottom noBorderRight"></span>
+      </div> -->
+    </div>
+    <div class="row">
+      <button type="button" name="Reset Game">Reset Game <i class="fa fa-repeat"></i></button>
+    </div>
+    <div class="row" id="winnerBox">
+    <script type="text/javascript" src="js/logic.js"></script>
+    </div>
+  </body>
+</html>
